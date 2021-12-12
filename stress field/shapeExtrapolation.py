@@ -1,13 +1,4 @@
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct  7 16:55:30 2021
-
-@author: zwang
-"""
-
-
-#based on main02_stress.py, but test results under different shapes
 
 import os
 
