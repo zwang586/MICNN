@@ -15,5 +15,8 @@ Accompanied datasets can be downloaded from Mendeley Data: XX
 
 ## How to use
 
-Please find README under each folder, for details on how to preprocess raw data, train and test CNN, and reproduce the results in the paper.
+### Fluid dynamics
+
+⋅⋅* Run **dataPreprocess160.py** to prreprocess 30 groups of raw vorticity data under //data file.
+
 
