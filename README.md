@@ -13,6 +13,12 @@ Multi-input CNN model code (model.py) is partly adapted from [Implementation of 
 
 Accompanied datasets can be downloaded from Mendeley Data: XX
 
+Datasets were produced from massive (multi-)physics simulations. They are used to train multi-input convolutional network, which then can act as a cheap substitute of original physics-based models and allows for ultrafast simulation. 
+
+The datasets and four related physical and engineering problems have distinct characteristics, which should present different challenges to a multi-input ConvNet. They can help comprehensively test the modeling capability of a multi-input ConvNet.
+
+Note that the data requires further processing, namely properly preparing multi-input-output pairs, i.e.,((a,X), Y), for training the multi-input convolutional network. Please see the paper and code for greater details on how to use the data.
+
 ## How to use
 
 ### Fluid dynamics
