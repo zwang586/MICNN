@@ -27,5 +27,24 @@ Accompanied datasets can be downloaded from Mendeley Data: XX
 ### Porosity in selective laser sintering
 
 1. Run **main.py** to train and test yNet for porosity modeling in selective laser sintering.
+2. Run **singleLayerTest.py** to test the trained yNet on modeling single-layer small pataches and long tracks under 5 different laser power conditions.
+3. Run **multiLayerTest.py** to test the trained yNet on modeling multi-layer long tracks under 3 different laser power conditions.
+4. Run **component.py** to perform full-component (315 layers) selective laser sintering simulation using the trained yNet.
+
+### Stress field development for perforation structures
+
+1. Run **dataPreprocess.py** to preprocess 7000 stress field data under //data folder.
+2. Run **main.py** to train and test yNet for modeling stress field development in perforation structure with elliptic holes.
+3. Run **dataPreprocessExtrapolation.py** to preprocess 10 stress field data under //data_shapeExtrapolation folder.
+4. Run **shapeExtrapolation.py** to test the trained yNet for modeling stress field development in perforation structure with other types of holes.
+
+### Grain growth
+
+1. Run **dataPreprocess.py** to preprocess grain growth simulation data under //data folder.
+2. Run **main.py** to train and test yNet for grain growth simulation.
+3. Run **largeScaleGG.py** to perform large-scale dynamic grain growth simulation using the initial structures under //data_seeding_1600x1600 and the trained yNet.
+
+
+For more details on how to preprocess data, train and test multi-input convolutional network, and reproduce the results, please refer to the paper.
 
 
