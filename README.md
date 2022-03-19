@@ -17,6 +17,7 @@ Accompanied datasets can be downloaded from Mendeley Data: XX
 
 ### Fluid dynamics
 
-⋅⋅* Run **dataPreprocess160.py** to prreprocess 30 groups of raw vorticity data under //data file.
+1. Run **dataPreprocess160.py** to prreprocess 30 groups of raw vorticity data under //data file.
+2. Run **
 
 
