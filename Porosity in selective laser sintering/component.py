@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-####Use the trained yNet to perform component-scale simulation
+####Use the trained yNet to perform full-component simulation
 ####NOTE: Require high-performance computer since generating large-scale raw powder bed is very slow.
 
 
