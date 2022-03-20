@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# yNet and conventional multi-input CNN implemented in fluid dynamics modeling.
+# yNet and conventional multi-input CNN implemented in porosity evolution modeling.
 
 from tensorflow.keras.models import *
 from tensorflow.keras.layers import *
