@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 #Train the conventional flattening based multi-input CNN
-# -*- coding: utf-8 -*-
-#Training and testing of the proposed gating-based yNet
+
 
 import numpy as np
 import matplotlib.pyplot as plt
