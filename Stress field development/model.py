@@ -3,7 +3,6 @@
 
 from tensorflow.keras.models import *
 from tensorflow.keras.layers import *
-from tensorflow.keras.optimizers import *
 
 
 def yNet(nx2,ny2):  
