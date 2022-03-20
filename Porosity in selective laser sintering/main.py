@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-##Train and/or test yNet for porosity prediction
+##Train and test yNet for porosity prediction
 
 import numpy as np
 import matplotlib.pyplot as plt
