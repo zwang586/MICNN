@@ -109,6 +109,7 @@ for i in range(0,5):
     ax.axes.get_xaxis().set_visible(False)
     ax.axes.get_yaxis().set_visible(False)
     plt.savefig('testStress_no'+str(i+1)+'_2.jpg', dpi=300, bbox_inches = "tight")
+    
     # display yNet prediction
     ax = plt.imshow(np.rot90(decoded_imgs[t_no].reshape(nx, ny)),cmap = 'jet', extent=[0, 128, 0, 128], aspect = "equal", vmin = 0, vmax = 1)
     ax.axes.get_xaxis().set_visible(False)
