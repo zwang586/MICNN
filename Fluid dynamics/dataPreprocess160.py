@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-"""
-Created on Tue Mar.15 2022
 
-@author: zwang
-"""
-##Read all 30x160 data, including both training and tesing data.
+##Read all 30x160 vorticity data.
 n = 30
 nframe = 160
 mRe = 75+np.array([0,1,2,4,5,7,8,9,11,14,15,17,19,21,22,23,24,26,27,29,6,10,12,18,28,3,13,16,20,25])*3 ##20：5：5 -- first 20 for training, 5 for validation, last 5 for testing
