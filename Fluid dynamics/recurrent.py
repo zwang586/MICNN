@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar.15 2022
 
-@author: zwang
-"""
 ##Calculate predictive error over long-term simulation;
 
-import os
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -100,7 +95,7 @@ for i in range(0,65):
     
 
     
-    ##Display and save original
+    ##Display and save physical simulation results
     ax = plt.imshow(np.rot90(yData192[int(191*(testNo-1)+i+126),:,:]),cmap = 'seismic', vmin = vMin, vmax = vMax)
     ax.axes.get_xaxis().set_visible(False)
     ax.axes.get_yaxis().set_visible(False)
