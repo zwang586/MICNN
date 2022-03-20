@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 import numpy as np
-"""
-Created on Tue Mar.15 2022
 
-@author: zwang
-"""
 ##Read all 5x192 testing data.
 n = 5
 nframe = 192
