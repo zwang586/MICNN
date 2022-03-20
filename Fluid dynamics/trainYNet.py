@@ -8,7 +8,6 @@ from tensorflow.keras.models import *
 from tensorflow.keras.optimizers import *
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras.callbacks import ModelCheckpoint
-import tensorflow as tf
 
 load_weights = False
 
@@ -85,7 +84,7 @@ vMin = 0.2
 vMax = 0.8
 for i in range(0,5):
     
-##Save five random testing results. 
+##Save five testing results. 
 #    test_frame_no = np.random.rand()*(nframe-1)
 #    t_no = int(test_frame_no)+(nframe-1)*i
 #    print(reTest[t_no,0]*(162-75)+75)    
@@ -124,7 +123,7 @@ for i in range(0,5):
     plt.savefig('testCylno'+str(i+1)+'_4.jpg', dpi=300, bbox_inches = "tight")
     plt.close()
 
-####Calculate MSE and RMSE for all 5x159 testing cases
+####Calculate MSE and RMSE for all 5x159 testing
 MSE_norm = 0.0
 MSE = 0.0
 RMSE = 0.0
